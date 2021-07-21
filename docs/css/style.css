@@ -1186,9 +1186,12 @@ body.ie ._ibg img {
   color: #2196f3;
 }
 
+.menu__link-not-current {
+  color: #212121;
+}
+
 .menu__link {
   font-weight: 500;
-  color: inherit;
   -webkit-transition: color 0.3s ease 0s;
   -o-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
@@ -1754,6 +1757,20 @@ body.ie ._ibg img {
   color: #ffffff;
 }
 
+.social__item a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .clients__container {
   height: 100%;
   padding: 10px 10px;
@@ -1776,15 +1793,6 @@ body.ie ._ibg img {
 .clients__item {
   width: 170px;
   height: 92px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   border: 1px solid #afb1b8;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1799,7 +1807,16 @@ body.ie ._ibg img {
   font-size: 56px;
   color: #afb1b8;
   width: 100%;
-  text-align: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .clients__logo:hover {

@@ -95,9 +95,11 @@
 			}
 		}
 	}
+	&__link-not-current{
+		color: $mainColor;
+	}
 	&__link {
-		font-weight: 500;
-		color: inherit;
+		font-weight: 500;		
 		transition: color 0.3s ease 0s;
 		@media (max-width: $md4+px) {
 			font-size: 40px;

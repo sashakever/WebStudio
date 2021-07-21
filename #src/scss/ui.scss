@@ -39,9 +39,8 @@
 		line-height: 28 / 24 * 100%;
 	}
 }
-.page-current {
+.page-current {	
 	color: $blueColor;
-
 	@media (min-width: $md4+px) {
 		&:after {
 			position: absolute;
