@@ -10,14 +10,16 @@
 						<nav class="menu__body">
 							<ul class="menu__list">
 								<li class="menu__item">
-									<a href="index.html" class="menu__link @@if(link==0){page-current}">Студия</a>
+									<a href="index.html"
+										class="menu__link @@if(link==0){page-current} @@if(link!=0){menu__link-not-current}">Студия</a>
 								</li>
 								<li class="menu__item">
 									<a href="portfolio.html"
-										class="menu__link @@if(link==1){page-current}">Портфолио</a>
+										class="menu__link @@if(link==1){page-current} @@if(link!=1){menu__link-not-current}">Портфолио</a>
 								</li>
 								<li class="menu__item">
-									<a href="" class="menu__link @@if(link==2){page-current}">Контакты</a>
+									<a href=""
+										class="menu__link @@if(link==2){page-current} @@if(link!=2){menu__link-not-current}">Контакты</a>
 								</li>
 							</ul>
 							<div class="menu__footer">
