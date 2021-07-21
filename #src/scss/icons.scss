@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "icons";
+	font-display: swap;
+	src: url("../fonts/icons.woff") format("woff"), url("../fonts/icons.woff2#icons") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="_icon-"],
+[class*=" _icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+._icon-close:before {
+	content: "\e900";
+}
+._icon-email:before {
+	content: "\e901";
+}
+._icon-facebook:before {
+	content: "\e902";
+}
+._icon-finger:before {
+	content: "\e903";
+}
+._icon-instagram:before {
+	content: "\e904";
+}
+._icon-linkedin:before {
+	content: "\e905";
+}
+._icon-logo01:before {
+	content: "\e906";
+}
+._icon-logo02:before {
+	content: "\e907";
+}
+._icon-logo03:before {
+	content: "\e908";
+}
+._icon-logo04:before {
+	content: "\e909";
+}
+._icon-logo05:before {
+	content: "\e90a";
+}
+._icon-logo06:before {
+	content: "\e90b";
+}
+._icon-mail:before {
+	content: "\e90c";
+}
+._icon-name:before {
+	content: "\e90d";
+}
+._icon-phone:before {
+	content: "\e90e";
+}
+._icon-phone2:before {
+	content: "\e90f";
+}
+._icon-send:before {
+	content: "\e910";
+}
+._icon-twitter:before {
+	content: "\e911";
+}
